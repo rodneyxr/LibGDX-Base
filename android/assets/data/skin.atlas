@@ -1,0 +1,85 @@
+
+skin.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+combobox
+  rotate: false
+  xy: 2, 35
+  size: 128, 64
+  split: 14, 29, 15, 15
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+button-down
+  rotate: false
+  xy: 132, 35
+  size: 64, 64
+  split: 31, 31, 31, 31
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+button
+  rotate: false
+  xy: 198, 35
+  size: 64, 64
+  split: 31, 31, 31, 31
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+checkbox-checked
+  rotate: false
+  xy: 264, 35
+  size: 64, 64
+  split: 31, 31, 31, 31
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+checkbox
+  rotate: false
+  xy: 330, 35
+  size: 64, 64
+  split: 31, 31, 31, 31
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+scroller
+  rotate: false
+  xy: 396, 35
+  size: 64, 64
+  split: 0, 0, 0, 0
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 462, 35
+  size: 64, 64
+  split: 17, 17, 17, 17
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 528, 35
+  size: 16, 64
+  split: 0, 0, 0, 0
+  orig: 16, 64
+  offset: 0, 0
+  index: -1
+slider
+  rotate: false
+  xy: 2, 2
+  size: 31, 31
+  split: 15, 15, 15, 15
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 546, 98
+  size: 1, 1
+  split: 0, 0, 0, 0
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
