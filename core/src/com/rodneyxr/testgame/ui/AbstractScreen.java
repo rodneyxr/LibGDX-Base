@@ -89,6 +89,7 @@ public abstract class AbstractScreen implements Screen {
     @Override
     public void hide() {
         TestGame.debug("Hiding screen: " + getName());
+        dispose();
     }
 
     @Override
@@ -104,13 +105,6 @@ public abstract class AbstractScreen implements Screen {
             public boolean keyDown(int keycode) {
 
                 switch (keycode) {
-
-                    case Keys.ESCAPE:
-                    case Keys.BACK:
-                        if (game.getScreen() instanceof MainMenuScreen)
-                            Gdx.app.exit(); // this will close the game when back / escape is pressed at the main menu
-                        return true;
-
                     case Keys.GRAVE:
                     case Keys.F1:
                         TestGame.toggleDevMode(); // toggles developer mode
@@ -121,7 +115,10 @@ public abstract class AbstractScreen implements Screen {
                 }
             }
         });
+        addProcessor();
     }
+
+    public abstract void addProcessor();
 
     @Override
     public void dispose() {
